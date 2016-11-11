@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+<meta charset="utf-8">
+<h1 style="color: red; font-family: Arial Black; font-size: 5.0em;font-weight: bold;">Iron man</h1>
+
+<article>
+	<hl style="color: yellow;">marvel</hl>
+	<p style="color: white">Date : 11.10</p>
+	<p style="color: blue; font-family: sans-serif;">아래 아이언맨을 클릭하면 자세한 정보를 얻을 수 있습니다.</p>
+	<a href="http://marvel.com/universe/Iron_Man_(Anthony_Stark)">
+</article>
+
+<style>
+#div1 {
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px circle #e50b0b;
+}
+</style>
+
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+<style>
+	body {
+		background: url('ironman.png');
+		background-size: 100% 800px;
+	}
+</style>
+
+</body>
+<img src="stark.png" width="350" height="350">
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="stark.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
+
+</html>
+
