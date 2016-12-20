@@ -1,18 +1,26 @@
 =========================================================
-                 One_Jeongheejae HTML
+                                                 One_Jeongheejae HTML
 =========================================================
 
 # Introduction
-Team name : One_Jeongheejae
-Team member : Lee WonJung, Jeong Heejae
-
-Our project is making HTML web to find restauraunt around Hanyang University ERICA Campus.
-
+* Team Name : One_Jeongheejae
+* Contributors : Lee WonJung, Jeong Heejae
+* Developer : Lee WonJung
+* Designer : Jeong Heejae 
+* Project : Web Programming
+* Language : HTML
 
 # Purpose
 
-Provide information about restaurant to ERICA student, then it's easy to choose today's lunch menu.
+* When the new semester begins, freshmen enter the school. And at lunch time, they look for some restaurant around the University. But they don't have information about restaurants for example menu, price, food tatse etc. So we try to create a restaurant information site for them. We want them to get restaurants information by looking at our site.
+
+* At the lunch or dinner time, sometimes, students are in agony to select their today's food menu. "What do you want to eat today?" And answer is "I can eat anything." or "Everything what you want". So, controversy begins to select the menu. Our site is also effective in this situation. The site relieve their worries about menu.
 
 # Function
 
-Button which enter information web, Recommend today's menu according to today's weather, Send email to developer
+1. Map -> Show map near main gate of Hanyang University ERICA.
+2. Button -> There are buttons that provides information about the restaurant on the Map.
+3. Banner -> At top right, the banner shows you weather.
+4. Send Email -> If you click hyperlinked line at the buttom, you can send email to contributors.
+
+# Development Plan
