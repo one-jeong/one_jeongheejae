@@ -1,6 +1,13 @@
+=========================================================
+                 One_Jeongheejae HTML
+=========================================================
+
 # Introduction
+Team name : One_Jeongheejae
+Team member : Lee WonJung, Jeong Heejae
 
 Our project is making HTML web to find restauraunt around Hanyang University ERICA Campus.
+
 
 # Purpose
 
